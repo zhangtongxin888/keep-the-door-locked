@@ -1,3 +1,4 @@
+import { AdsterraPopunderGate, AdsterraSocialBarGate, AdsterraStickyRail, AdsterraGlobalFallback } from "@/components/ads";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SITE_URL } from "./lib/site";
@@ -48,6 +49,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <AdsterraPopunderGate />
+        <AdsterraSocialBarGate />
+        <AdsterraStickyRail />
+        <AdsterraGlobalFallback />
         <a className="skip-link" href="#main-content">Skip to content</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema).replace(/</g, "\\u003c") }} />
         <div id="main-content">{children}</div>
