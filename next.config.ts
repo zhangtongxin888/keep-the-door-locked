@@ -6,9 +6,27 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/:path*",
+        source: "/",
         has: [{ type: "host", value: "www.keepthedoorlocked-wiki.wiki" }],
-        destination: "https://keepthedoorlocked-wiki.wiki/:path*",
+        destination: "https://keepthedoorlocked-wiki.wiki/",
+        permanent: true,
+      },
+      {
+        source: "/:path((?:.*\\.[a-zA-Z0-9]+))",
+        has: [{ type: "host", value: "www.keepthedoorlocked-wiki.wiki" }],
+        destination: "https://keepthedoorlocked-wiki.wiki/:path",
+        permanent: true,
+      },
+      {
+        source: "/:path([^.]*[^./])",
+        has: [{ type: "host", value: "www.keepthedoorlocked-wiki.wiki" }],
+        destination: "https://keepthedoorlocked-wiki.wiki/:path/",
+        permanent: true,
+      },
+      {
+        source: "/:path([^.]*/)",
+        has: [{ type: "host", value: "www.keepthedoorlocked-wiki.wiki" }],
+        destination: "https://keepthedoorlocked-wiki.wiki/:path",
         permanent: true,
       },
     ];
