@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 const faqs = [
   ["What do I do first?", <>Keep the door locked and begin with the <Link href="/beginner-guide/">first-night guide</Link>. A knock starts an inspection, not an automatic open.</>],
   ["What is the core objective?", <>The official description says to watch the cameras, follow the rules, and decide who gets inside. The <Link href="/gameplay-loop/">gameplay loop</Link> turns that into four repeatable steps.</>],
-  ["Is Keep the Door Locked multiplayer?", <>Yes. Roblox’s public game API listed a maximum of 20 players when checked on August 19, 2026. The in-game first-night briefing also tells players to wait for others before sleeping.</>],
+  ["Is Keep the Door Locked multiplayer?", <>Yes. Roblox’s public game API listed a maximum of 20 players when checked on October 11, 2026. The in-game first-night briefing also tells players to wait for others before sleeping.</>],
   ["Who made the game?", <>Roblox’s public game API lists the creator as the group <strong>Hotel Room Services</strong>.</>],
-  ["How many endings are confirmed?", <>Four ending badges were active in Roblox’s public badge API when checked. See the <Link href="/endings/">verified ending clues</Link>.</>],
-  ["Are there working codes?", <>This wiki cannot reliably confirm a code system or current rewards. Public third-party pages conflict, so we do not publish redemption instructions as fact.</>],
+  ["How many endings are confirmed?", <>Five. Roblox’s badge API lists ENDING 1 to ENDING 5; ENDING 5 (Blood Moon Ending) was added on August 21, 2026. See <Link href="/endings/">all endings</Link>.</>],
+  ["Are there working codes?", <>Yes. As of October 11, 2026, Cash, HideCloset and TheMaze are listed as working by two independent trackers. See the <Link href="/codes/">codes page</Link> for rewards and redeem steps.</>],
   ["What happens when sanity reaches zero?", <>Roblox has a “Losing It” badge for letting sanity hit zero, but the public badge text does not confirm the full penalty. We do not label it a fixed death, currency loss, or restart without stronger evidence.</>],
-  ["Will the game get more content?", <>The official game description currently says more content will be added, but it gives no feature list or release date.</>],
+  ["Will the game get more content?", <>Probably. The last update was on September 9, 2026, and the official description says more content is coming, with no date or feature list.</>],
   ["Is this an official wiki?", <>No. This is an independent fan guide and is not affiliated with Roblox or Hotel Room Services. Read the <Link href="/sources/">verification policy</Link> for evidence details.</>],
 ];
 

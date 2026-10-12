@@ -5,9 +5,9 @@ import { SiteFooter, SiteHeader } from "./_components/SiteChrome";
 import { SITE_URL } from "./lib/site";
 
 export const metadata: Metadata = {
-  title: "Keep the Door Locked Wiki | Beginner Survival Guide",
+  title: { absolute: "Keep the Door Locked Wiki: Codes, 5 Endings & Survival Guide" },
   description:
-    "Start with the verified beginner guide for Keep the Door Locked [Anomaly]: learn the door-check routine, night events, common mistakes, and endings clues.",
+    "Keep the Door Locked guide for October 2026: working codes, all five endings including Blood Moon, the door-check routine, and common mistakes.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Keep the Door Locked — Beginner Survival Guide",
@@ -45,9 +45,9 @@ const guideCards = [
   },
   {
     number: "04",
-    title: "Endings clues",
+    title: "All 5 endings",
     description:
-      "Read only the clues confirmed by the experience's official badges.",
+      "Official badge clues for every ending, including the Blood Moon ending.",
     href: "/endings/",
     label: "Plan the next goal",
   },
@@ -68,7 +68,7 @@ export default function Home() {
           <div className="wrap hero-grid">
             <div className="hero-copy">
               <p className="eyebrow">Fan-made, fact-checked guide</p>
-              <h1 id="hero-title">Survive your first nights without guessing.</h1>
+              <h1 id="hero-title">Keep the Door Locked guide: survive every night, find all 5 endings.</h1>
               <p className="hero-lede">
                 Keep the door locked, verify every visitor, and handle room
                 events before they escalate. This path starts with the rules the
@@ -83,7 +83,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="trust-row" aria-label="Guide scope">
-                <span>Roblox data checked August 19, 2026</span>
+                <span>Roblox data checked October 11, 2026</span>
                 <span>Game ID 124338404742585</span>
               </div>
             </div>
@@ -105,6 +105,24 @@ export default function Home() {
                 ))}
               </ol>
             </aside>
+          </div>
+        </section>
+
+        <section className="section compact-section" id="updates" aria-labelledby="updates-title">
+          <div className="wrap">
+            <SourceNote>
+              <div>
+                <p className="eyebrow">October 2026 status</p>
+                <h2 id="updates-title">What changed recently</h2>
+                <ul className="check-list">
+                  <li>Roblox shows the last game update on September 9, 2026; the game still has 2,000+ players online.</li>
+                  <li>New codes <strong>Cash</strong>, <strong>HideCloset</strong> and <strong>TheMaze</strong> arrived in September — see the <Link href="/codes/">codes page</Link>.</li>
+                  <li>ENDING 5 (Blood Moon Ending) was added on August 21, bringing the total to five endings — see <Link href="/endings/">all endings</Link>.</li>
+                  <li>The developers say more content is coming, with no date announced yet.</li>
+                </ul>
+              </div>
+              <Link href="/codes/">Get the codes →</Link>
+            </SourceNote>
           </div>
         </section>
 

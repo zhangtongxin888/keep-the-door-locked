@@ -5,6 +5,7 @@ export const navItems = [
   { href: "/gameplay-loop/", label: "Gameplay loop" },
   { href: "/mistakes/", label: "Common mistakes" },
   { href: "/endings/", label: "Endings" },
+  { href: "/codes/", label: "Codes" },
   { href: "/faq/", label: "FAQ" },
 ];
 

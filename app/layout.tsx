@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Keep the Door Locked Wiki", template: "%s | Keep the Door Locked Wiki" },
+  title: { default: "Keep the Door Locked Wiki", template: "%s | Keep the Door Locked" },
   description: "Fact-checked beginner guides for Keep the Door Locked [Anomaly] on Roblox.",
   applicationName: "Keep the Door Locked Wiki",
   authors: [{ name: "Keep the Door Locked Wiki editors" }],
