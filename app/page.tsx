@@ -5,9 +5,9 @@ import { SiteFooter, SiteHeader } from "./_components/SiteChrome";
 import { SITE_URL } from "./lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Keep the Door Locked Wiki: Codes, 5 Endings & Survival Guide" },
+  title: { absolute: "Keep the Door Locked Wiki (Roblox): Codes, All 5 Endings & Guide" },
   description:
-    "Keep the Door Locked guide for October 2026: working codes, all five endings including Blood Moon, the door-check routine, and common mistakes.",
+    "Keep the Door Locked wiki for the Roblox horror game: working codes (checked Oct 28, 2026), all five endings including Blood Moon, door-check rules and common mistakes.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Keep the Door Locked — Beginner Survival Guide",
@@ -83,7 +83,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="trust-row" aria-label="Guide scope">
-                <span>Roblox data checked October 11, 2026</span>
+                <span>Codes checked October 28, 2026</span>
                 <span>Game ID 124338404742585</span>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function Home() {
                 <h2 id="updates-title">What changed recently</h2>
                 <ul className="check-list">
                   <li>Roblox shows the last game update on September 9, 2026; the game still has 2,000+ players online.</li>
-                  <li>New codes <strong>Cash</strong>, <strong>HideCloset</strong> and <strong>TheMaze</strong> arrived in September — see the <Link href="/codes/">codes page</Link>.</li>
+                  <li>No new or Halloween code yet (checked October 28). <strong>Cash</strong>, <strong>HideCloset</strong> and <strong>TheMaze</strong> still work — see all <Link href="/codes/">Keep the Door Locked codes</Link>.</li>
                   <li>ENDING 5 (Blood Moon Ending) was added on August 21, bringing the total to five endings — see <Link href="/endings/">all endings</Link>.</li>
                   <li>The developers say more content is coming, with no date announced yet.</li>
                 </ul>

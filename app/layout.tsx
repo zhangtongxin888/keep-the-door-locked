@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   title: { default: "Keep the Door Locked Wiki", template: "%s | Keep the Door Locked" },
   description: "Fact-checked beginner guides for Keep the Door Locked [Anomaly] on Roblox.",
   applicationName: "Keep the Door Locked Wiki",
-  authors: [{ name: "Keep the Door Locked Wiki editors" }],
-  creator: "Keep the Door Locked Wiki editors",
+  authors: [{ name: "Keep the Door Locked Wiki Editorial Team" }],
+  creator: "Keep the Door Locked Wiki Editorial Team",
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {
