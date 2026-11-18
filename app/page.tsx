@@ -7,7 +7,7 @@ import { SITE_URL } from "./lib/site";
 export const metadata: Metadata = {
   title: { absolute: "Keep the Door Locked Wiki (Roblox): Codes, All 5 Endings & Guide" },
   description:
-    "Keep the Door Locked wiki for the Roblox horror game: working codes (checked Oct 28, 2026), all five endings including Blood Moon, door-check rules and common mistakes.",
+    "Keep the Door Locked wiki for the Roblox horror game: codes rechecked 17 November 2026 (including H4ppyHalloween!!), all five endings including Blood Moon, door-check rules and common mistakes.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Keep the Door Locked — Beginner Survival Guide",
@@ -83,7 +83,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="trust-row" aria-label="Guide scope">
-                <span>Codes checked October 28, 2026</span>
+                <span>Codes checked 17 November 2026</span>
                 <span>Game ID 124338404742585</span>
               </div>
             </div>
@@ -112,11 +112,11 @@ export default function Home() {
           <div className="wrap">
             <SourceNote>
               <div>
-                <p className="eyebrow">October 2026 status</p>
+                <p className="eyebrow">November 2026 status</p>
                 <h2 id="updates-title">What changed recently</h2>
                 <ul className="check-list">
-                  <li>Roblox shows the last game update on September 9, 2026; the game still has 2,000+ players online.</li>
-                  <li>No new or Halloween code yet (checked October 28). <strong>Cash</strong>, <strong>HideCloset</strong> and <strong>TheMaze</strong> still work — see all <Link href="/codes/">Keep the Door Locked codes</Link>.</li>
+                  <li>The official Games API <code>updated</code> stamp was 31 October 2026, 10:25 AM ET when re-read on 17 November 2026. The listing still has no code table and still says more content is coming, with no date.</li>
+                  <li>Two November sources now list <strong>MoreCash</strong>, <strong>H4ppyHalloween!!</strong>, <strong>DigitalJester</strong>, <strong>Cash</strong>, <strong>HideCloset</strong> and <strong>TheMaze</strong> as working. See all <Link href="/codes/">Keep the Door Locked codes</Link>, including strings the sources still disagree on.</li>
                   <li>ENDING 5 (Blood Moon Ending) was added on August 21, bringing the total to five endings — see <Link href="/endings/">all endings</Link>.</li>
                   <li>The developers say more content is coming, with no date announced yet.</li>
                 </ul>
