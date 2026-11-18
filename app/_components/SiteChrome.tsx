@@ -36,7 +36,7 @@ export function SiteFooter() {
         <div><strong>Start here</strong><Link href="/beginner-guide/">Beginner guide</Link><Link href="/gameplay-loop/">Gameplay loop</Link><Link href="/mistakes/">Common mistakes</Link></div>
         <div><strong>Reference</strong><Link href="/endings/">Ending clues</Link><Link href="/faq/">FAQ</Link><Link href="/sources/">Sources & verification</Link></div>
       </div>
-      <div className="wrap footer-bottom"><span>Updated August 19, 2026</span><span>Not affiliated with Roblox or Hotel Room Services.</span></div>
+      <div className="wrap footer-bottom"><span>Updated November 17, 2026</span><span>Not affiliated with Roblox or Hotel Room Services.</span></div>
     </footer>
   );
 }
